@@ -142,3 +142,50 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants list styling */
+.participants {
+  margin-top: 12px;
+}
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+.participants ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* hide default bullets */
+}
+.participants li {
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  background: #eef6ff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #073763;
+}
+.participant-email {
+  word-break: break-all;
+}
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.participant-remove:hover {
+  background: rgba(198,40,40,0.08);
+}
+.no-participants {
+  color: #666;
+  font-style: italic;
+  margin: 0;
+}
